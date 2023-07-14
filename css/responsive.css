@@ -1,0 +1,224 @@
+@media screen and (max-width: 1024px) {
+
+    .container{
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    /* Header */
+
+    
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+    header{
+        display: flex;
+        align-items: center;
+        padding: 3rem 1.5rem; 
+        justify-content: start;
+        z-index: 999999;
+        border-top: #B6121E 32px solid;
+        width: 100%;
+        background-color: #fff;
+
+    }
+    
+    header .container {
+        justify-content: start;
+    }
+
+
+
+    .nav-menu {
+        position: absolute;
+        left: 200%;
+        top: 9.8rem;
+        flex-direction: column;
+        background-color: #B6121E;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 99999;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+
+    .nav-item a{
+        color: #fff;
+    }
+    .nav-item:first-child a{
+        border: #fff 1px solid;
+        padding: 16px 24px;
+        transition: all 400ms ease;
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: #B6121E;
+    }
+
+ /* Fin Header */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #landing:hover h1{
+	transform: none;
+}
+ 
+ #services ul.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #services li.col25 {
+    width: 48%;
+    margin-bottom: 100px;
+  }
+
+
+#presentation div{
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+}
+#presentation div:last-child div:first-child{
+    order: 2;
+}
+#presentation .row:hover img{
+	transform: none;
+}
+#presentation .face{
+  text-align: center;
+}
+
+#citation blockquote{
+	max-width: 90%;
+}
+
+footer ul{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+    #services ul.row {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    #services .chapo{
+        padding-bottom: 50px;
+    }
+
+    footer .col25{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+    
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+    
+}
